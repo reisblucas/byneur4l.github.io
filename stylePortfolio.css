@@ -1,0 +1,49 @@
+
+            body {
+                background-color: silver;
+            }
+
+            h2 {
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 15px;
+            }
+
+            h3 {
+                font-family: monospace;
+                color: black;
+                font-size: 15px;
+            }
+
+            h4 {
+                font-size: 15px;
+            }
+
+            p {
+                font-family: monospace;
+            }
+
+            .boxTemplates {
+                max-width: fit-content;
+                height: 20px;
+                background-color: wheat;
+                display: inline-block;
+                font-weight: 200;
+                margin: 50px;
+                padding: 15px 30px;
+                border-radius: 5px;
+                text-align: center;
+                cursor: pointer;
+            }
+
+            .pp {
+                border-radius: 10%;
+                border-style: solid;
+            }
+
+            h1 {
+                text-align: center;
+            }
+
+
+        
+            
