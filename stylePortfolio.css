@@ -1,17 +1,22 @@
 
             body {
                 background-color: silver;
+                font-family: 'Courier New', Courier, monospace;
+                font-size: 100%;
             }
 
+
+            
+
             h2 {
-                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 font-size: 15px;
             }
 
             h3 {
-                font-family: monospace;
+                font-family: 'Courier New', Courier, monospace;
                 color: black;
-                font-size: 15px;
+                font-size: 20px;
             }
 
             h4 {
@@ -20,6 +25,42 @@
 
             p {
                 font-family: monospace;
+            }
+
+            ul li:nth-child(odd) {
+                width: fit-content;
+                background-color: aqua;
+            }
+
+            /* Div's */
+
+            .hero-title {
+                text-align: center;
+            }
+
+            .alignment-box {
+                border: 2px solid;
+                height: 410px;
+            }
+
+            .picture-container {
+                float: left;
+                padding: 5px;
+                margin: 20px;
+                background-color: aqua;
+                position: relative;
+            }
+
+            .about-container {
+                display: inline-block;
+                position: absolute;
+                margin: auto;
+                padding: 100px;
+            }
+
+            /* Clear if I need */
+            .clear {
+                clear: both;
             }
 
             /* Box individual de cada link interno */
@@ -35,6 +76,8 @@
                 cursor: pointer;
             }
 
+
+
             /* cor do menu e centraliza o Head 2 na página */
             .menuColor {
                 color: black;
@@ -43,9 +86,9 @@
 
             }
 
-            .pp {
-                border-radius: 10%;
-                border-style: solid;
+            .minha-foto {
+                border-radius:;
+                width: 200px;
             }
 
             h1 {
